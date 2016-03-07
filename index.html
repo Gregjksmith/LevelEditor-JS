@@ -12,17 +12,20 @@
   <script src="javascripts/MeshStructures.js"></script>
   <script src="javascripts/intersectionMethods.js"></script>
   <script src="javascripts/ModelLoader.js"></script>
+  <script src="javascripts/Entity.js"></script>
   <script src="javascripts/MaterialLoader.js"></script>
   <script src="javascripts/CollisionDetection.js"></script>
   <script src="javascripts/Camera.js"></script>
   <script src="javascripts/Controller.js"></script>
   <script src="javascripts/MeshHierarchyKd.js"></script>
 
+
   <script type="text/javascript">
       var gl;
       var canvas;
       var scene;
       var controller;
+      var e;
 
       function drawGLScene()
       {
@@ -45,7 +48,8 @@
 
       function init()
       {
-
+          initGL();
+          e = Entity("https://raw.githubusercontent.com/Gregjksmith/LevelEditor-JS/gh-pages/models/CornellBox/cornellbox.obj");
       }
 
       function initShaders()
@@ -71,10 +75,8 @@
 
           canvasResize();
           var ext = gl.getExtension("OES_texture_float");
+          init();
 
-          gl.depthRange(0, 1.0);
-          gl.enable(gl.DEPTH_TEST);
-          gl.depthFunc(gl.LEQUAL);
           gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
       }
 
