@@ -6,15 +6,15 @@
         "cornelLbox" :
         {
             "filePath" : "https://raw.githubusercontent.com/Gregjksmith/LevelEditor-JS/gh-pages/models/CornellBox/cornellbox.obj",
-            "x" : 0,
-            "y" : 0,
-            "z" : 0,
-            "rotX" : 0,
-            "rotY" : 0,
-            "rotZ" : 0,
-            "scaleX" : 1,
-            "scaleY" : 1,
-            "scaleZ" : 1,
+            "x" : "0",
+            "y" : "0",
+            "z" : "0",
+            "rotX" : "0",
+            "rotY" : "0",
+            "rotZ" : "0",
+            "scaleX" : "1",
+            "scaleY" : "1",
+            "scaleZ" : "1"
         }
     },
 
@@ -23,15 +23,15 @@
         "pointLight" : 
         {
             "filePath" : "",
-            "x" : 0,
-            "y" : 0,
-            "z" : 0,
-            "rotX" : 0,
-            "rotY" : 0,
-            "rotZ" : 0,
-            "scaleX" : 1,
-            "scaleY" : 1,
-            "scaleZ" : 1,
+            "x" : "0",
+            "y" : "0",
+            "z" : "0",
+            "rotX" : "0",
+            "rotY" : "0",
+            "rotZ" : "0",
+            "scaleX" : "1",
+            "scaleY" : "1",
+            "scaleZ" : "1"
         }
     }
 }
