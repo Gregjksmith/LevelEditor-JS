@@ -3,7 +3,6 @@
 
     "entities" : 
     [
-        "cornelLbox" :
         {
             "filePath" : "https://raw.githubusercontent.com/Gregjksmith/LevelEditor-JS/gh-pages/models/CornellBox/cornellbox.obj",
             "x" : "0",
@@ -20,7 +19,6 @@
 
     "lightEntites" :
     [
-        "pointLight" : 
         {
             "filePath" : "",
             "x" : "0",
