@@ -2,7 +2,7 @@
     "shadingType": "0",
 
     "entities" : 
-    {
+    [
         "cornelLbox" :
         {
             "filePath" : "https://raw.githubusercontent.com/Gregjksmith/LevelEditor-JS/gh-pages/models/CornellBox/cornellbox.obj",
@@ -16,10 +16,10 @@
             "scaleY" : "1",
             "scaleZ" : "1"
         }
-    },
+    ],
 
     "lightEntites" :
-    {
+    [
         "pointLight" : 
         {
             "filePath" : "",
@@ -33,5 +33,5 @@
             "scaleY" : "1",
             "scaleZ" : "1"
         }
-    }
+    ]
 }
